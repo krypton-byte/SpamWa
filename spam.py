@@ -67,7 +67,7 @@ class spam:
 		if 'We have sent an OTP to your phone, Please enter the 4 digit code.' in r.text:
 			return f'\x1b[92mSpamm PHD {self.nomer} \x1b[92mSucces!'
 		else:
-			return f'\x1b[92mSpamm PHD {self.nomer} \x1b[92mGagal!'
+			return f'\x1b[91mSpamm PHD {self.nomer} \x1b[92mGagal!'
 			
 	def balaji(self):
 		urlb="https://api.cloud.altbalaji.com/accounts/mobile/verify?domain=ID"
@@ -92,7 +92,7 @@ class spam:
 		if '{"status":"ok"}' in req.text:
 			return f'\x1b[92mSpamm BALAJI {self.nomer} \x1b[92mSucces!'
 		else:
-			return f'\x1b[92mSpamm BALAJI {self.nomer} \x1b[92mGagal!'
+			return f'\x1b[91mSpamm BALAJI {self.nomer} \x1b[92mGagal!'
 		
 
 
