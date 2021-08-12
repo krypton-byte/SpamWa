@@ -208,7 +208,7 @@ def multi():
 #-------------------------Fungsi Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'  Author : '+k+'./kitsune'
+	auth=m+'  Author : '+k+'./AhmadSurya'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
 %s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗
