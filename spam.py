@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import requests,random,json,time,sys,os,re
 # -----------------------------------------------------------
-# created By ./Kitsune
+# created By ./Arslanofficiall
 # Update 14 Juny 2021 10:57
-# Thanks FoR FourX, MhankBarBar, Maulana, ITachI
+# Thanks FoR Arslan Tech
 # Underground Science And Termux Tutorial Group
 # ---------------------------------------------------------------
 
